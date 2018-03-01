@@ -176,11 +176,6 @@ module.exports = {
                 },
               },
               {
-                test: /\.svg$/,
-                include: paths.appSrc,
-                loader: require.resolve('raw-loader')
-              },
-              {
                 loader: require.resolve('sass-loader'),
               },
               {
@@ -204,6 +199,11 @@ module.exports = {
                 },
               },
             ],
+          },
+          {
+            test: /\.svg$/,
+            include: paths.appSrc,
+            loader: require.resolve('raw-loader')
           },
           {
             test: /\.css$/,
