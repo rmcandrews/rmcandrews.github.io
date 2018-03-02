@@ -12,8 +12,8 @@ const SkillsCard = () => {
             <Skill colorImage="images/AWS_Color.svg" 
                 grayImage="images/AWS_Gray.svg"
                 name="AWS"/>
-            <Skill colorImage="images/NodeJS_Color.svg" 
-                grayImage="images/NodeJS_Gray.svg"
+            <Skill colorImage="images/NodeJs_Color.svg" 
+                grayImage="images/NodeJs_Gray.svg"
                 name="NodeJS"/>
             <Skill colorImage="images/Java_Color.svg" 
                 grayImage="images/Java_Gray.svg"
