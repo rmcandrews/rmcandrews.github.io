@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import FadeImage from '../../../../components/FadeImage/FadeImage';
 
-class ResumeCard extends Component {
+export default class ExperienceCard extends Component {
 
     constructor(props) {
         super(props);
@@ -40,5 +40,3 @@ class ResumeCard extends Component {
     }
 
 }
-
-export default ResumeCard;
