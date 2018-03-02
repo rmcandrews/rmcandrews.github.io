@@ -1,32 +1,5 @@
 .ResumeCard {
 
-    .red-fill {
-        fill: red;
-        transition: fill 0.5s ease;
-        
-        @media screen and (min-width: $screen-large) {
-            fill: gray;
-        }
-    }
-
-    .green-fill {
-        fill: green;
-        transition: fill 0.5s ease;
-        
-        @media screen and (min-width: $screen-large) {
-            fill: gray;
-        }
-    }
-
-    &:hover {
-        .red-fill {
-            fill: red;
-        }
-        .green-fill {
-            fill: green;
-        }
-    }
-
     min-height: 6rem;
     @media screen and (min-width: $screen-small) {
         min-height: 8rem;
@@ -41,27 +14,6 @@
 
         &-details {
             color: $color-light-text;
-        }
-    }
-
-    &-icon {
-
-        &-svg {
-            width: 80%;
-            margin-top: 1rem;
-            margin-left: 1rem;
-
-            @media screen and (min-width: $screen-small) and (max-width: $screen-large) {
-                height: 5rem;
-                margin-top: 1rem;
-                margin-left: 1.5rem;
-            }
-
-            @media screen and (min-width: $screen-large) {
-                height: 5rem;
-                margin-top: 1.5rem;
-                margin-left: 1.5rem;
-            }
         }
     }
 }

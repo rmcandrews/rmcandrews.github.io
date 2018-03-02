@@ -1,0 +1,7 @@
+.FadeImage {
+    &-topSrc {
+        @media screen and (max-width: $screen-large) {
+            opacity: 0 !important;
+        }
+    }
+}
