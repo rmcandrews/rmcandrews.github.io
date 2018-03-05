@@ -16,7 +16,7 @@ class Projects extends Component {
                         skills={["Angular", "Firebase", "Lambda"]}/>
                     <Project title="Fun Fact Bot"
                         shortDescription="A Reddit bot that shares it's knowledge"
-                        skills={["NodeJs", "AWS", "Reddit"]}/>
+                        skills={["NodeJS", "AWS", "Reddit"]}/>
                 </div>
             </div>
         )
