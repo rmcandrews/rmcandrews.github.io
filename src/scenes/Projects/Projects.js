@@ -5,7 +5,7 @@ class Projects extends Component {
 
     render() {
         return (
-            <div className="mt4">
+            <div className="pv4">
                 <div className="f3">PROJECTS</div>
                 <div className="ma3">
                     <Project title="This Website"
