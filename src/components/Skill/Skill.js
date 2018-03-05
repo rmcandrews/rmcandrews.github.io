@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import FadeImage from '../../../../components/FadeImage/FadeImage';
+import FadeImage from '../FadeImage/FadeImage';
 
 export default class Skill extends Component {
 
@@ -20,12 +20,13 @@ export default class Skill extends Component {
 
     render() {
         return (
-            <div className="fl w-20 tc"
+            <div className={`tc ${this.props.className}`}
                 onMouseEnter={() => this.toggleHover()} 
                 onMouseLeave={() => this.toggleHover()}>
-                    <FadeImage 
-                        src={this.state.hover ? this.props.colorImage : this.props.grayImage}
-                        style ={{ height: "6rem" }}/>
+                    <FadeImage
+                        src={this.state.hover ? `images/skills/${this.props.name}_Color.svg` : `images/skills/${this.props.name}_Gray.svg`}
+                        style={{ height: "6rem" }}
+                        imageHeight="4rem"/>
                     <div>{this.props.name}</div>
             </div>
         )

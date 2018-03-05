@@ -1,6 +1,7 @@
 // Color Palette - color-hex.com/color-palette/3569
-$color-main: #ff6347;
-$color-accent: #00bfff;
+$color-main: #fff;
+$color-accent-1: #ff6347;
+$color-accent-2: #00bfff;
 $color-light-text: #555;
 $color-text: #1e1e1e;
 
@@ -14,10 +15,14 @@ $screen-large: 60em;
 
 .card {
   box-shadow: 0 1px 4px rgba(0,0,0,0.16), 0 1px 4px rgba(0,0,0,0.23);
-  border-radius: .25rem;
+  border-radius: .5rem;
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
+}
+
+.hidden {
+  display: none;
 }
 
 @import 'scenes/scenes';

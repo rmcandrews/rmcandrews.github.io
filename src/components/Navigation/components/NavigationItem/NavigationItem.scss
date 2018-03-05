@@ -1,8 +1,13 @@
 .NavigationItem {
+
+    &-link {
+        color: $color-text
+    }
+
     &-link::after {
         display: block;
         content: '';
-        border-bottom: solid 3px white;
+        border-bottom: solid 3px $color-text;
         margin-top: 0.5rem;
         margin-left: -0.5rem;
         margin-right: -0.5rem;

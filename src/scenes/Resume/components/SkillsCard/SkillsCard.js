@@ -1,25 +1,20 @@
 import React from 'react';
 
-import Skill from './Skill';
+import Skill from '../../../../components/Skill/Skill';
 
 const SkillsCard = () => {
 
     return (
-        <div className="ResumeCard tl mt3 card bg-white cf">
-            <Skill colorImage="images/React_Color.svg" 
-                grayImage="images/React_Gray.svg"
+        <div className="ResumeCard tl mt3 card bg-white cf mb4">
+            <Skill className="fl w-third w-20-ns mt3"
                 name="React"/>
-            <Skill colorImage="images/AWS_Color.svg" 
-                grayImage="images/AWS_Gray.svg"
+            <Skill className="fl w-third w-20-ns mt3"
                 name="AWS"/>
-            <Skill colorImage="images/NodeJs_Color.svg" 
-                grayImage="images/NodeJs_Gray.svg"
+            <Skill className="fl w-third w-20-ns mt3"
                 name="NodeJS"/>
-            <Skill colorImage="images/Java_Color.svg" 
-                grayImage="images/Java_Gray.svg"
+            <Skill className="fl w-third w-20-ns mt3"
                 name="Java"/>
-            <Skill colorImage="images/Angular_Color.svg" 
-                grayImage="images/Angular_Gray.svg"
+            <Skill className="fl w-third w-20-ns mt3"
                 name="Angular"/>
         </div>
     )

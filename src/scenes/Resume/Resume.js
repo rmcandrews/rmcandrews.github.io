@@ -10,15 +10,13 @@ const Resume = () => {
             <SkillsCard/>
             <div className="f4 f3-ns fw3">EXPERIENCE</div>
             <ExperienceCard
-                colorImage='images/CapitalOne_Color.svg'
-                grayImage='images/CapitalOne_Gray.svg'
+                image='CapitalOne'
                 company="Capital One"
                 title="Software Engineer">
                 Develop technology for Capital One’s card business as part of an agile team. Worked on Javascript front end, Java APIs, and cloud infrastructure.
             </ExperienceCard>
             <ExperienceCard 
-                colorImage='images/CloverApps_Color.svg'
-                grayImage='images/CloverApps_Gray.svg'
+                image='CloverApps'
                 company="Clover Apps"
                 title="Intern">
                 Built iOS application from the bottom up for a client of the company.

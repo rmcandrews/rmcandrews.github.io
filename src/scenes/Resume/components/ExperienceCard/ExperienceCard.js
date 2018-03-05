@@ -25,7 +25,7 @@ export default class ExperienceCard extends Component {
                     onMouseLeave={() => this.toggleHover()}>
                 <div className="fl w-20 pl2 pl3-m pl4-l pt2 pb2">
                     <FadeImage 
-                        src={this.state.hover ? this.props.colorImage : this.props.grayImage}
+                        src={this.state.hover ? `images/skills/${this.props.image}_Color.svg` : `images/skills/${this.props.image}_Gray.svg`}
                         style ={{ maxHeight: "8rem" }}/>
                 </div>
                 <div className="ResumeCard-text fl w-80 pr2 pb2">
