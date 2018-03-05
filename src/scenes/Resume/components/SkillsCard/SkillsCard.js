@@ -5,7 +5,7 @@ import Skill from '../../../../components/Skill/Skill';
 const SkillsCard = () => {
 
     return (
-        <div className="ResumeCard tl mt3 card bg-white cf mb4">
+        <div className="ResumeCard tl mt3 card bg-white cf mb4 pb3">
             <Skill className="fl w-third w-20-ns mt3"
                 name="React"/>
             <Skill className="fl w-third w-20-ns mt3"
