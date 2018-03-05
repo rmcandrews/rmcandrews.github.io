@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Firebase_Color</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Firebase_Color" fill-rule="nonzero">
+            <g transform="translate(35.000000, 10.000000)" id="Shape">
+                <path d="M85.5672527,65.066044 L67.5998901,81.7847802 L50.9271429,48.1559341 L59.5542857,28.8168132 C61.738022,24.9398901 65.3009341,24.9324725 67.4846703,28.8168132 L85.5672527,65.066044 Z" fill="#FFA000"></path>
+                <polygon fill="#F57F17" points="67.5998901 81.7842857 0.456923077 144.245769 50.9271429 48.1554396"></polygon>
+                <path d="M105.218901,39.5114835 C108.428736,36.4262637 111.747363,37.4785714 112.592967,41.85 L130.06978,143.409066 L72.135,178.130769 C70.1075275,179.25033 64.7386813,179.735934 64.7386813,179.735934 C64.7386813,179.735934 59.8381319,179.149945 57.9703846,178.113462 L0.454945055,144.242308 L105.218901,39.5114835 Z" fill="#FFCA28"></path>
+                <path d="M50.9271429,48.1554396 L0.456923077,144.245769 L22.9371429,3.8071978 C23.7649451,-0.567692308 26.2552747,-0.989010989 28.4770879,2.87258242 L50.9271429,48.1554396 Z" fill="#FFA000"></path>
+            </g>
+        </g>
+    </g>
+</svg>
